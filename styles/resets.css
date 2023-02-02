@@ -1,0 +1,39 @@
+/* css reset */
+:root{
+    --white-color:#eee;
+    --black-color:#212121;
+    --branding-color:#a18a68;
+    --secondary-color:#707070;
+    --font-size:1.4rem;
+    --font-family:"Roboto", Arial, sans-serif;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+  font-size: 62.5%;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+body {
+  /* background-color: var(--white-color)!important; */
+  color: var(--black-color);
+  font-family:var(--font-family) ;
+  font-size: var(--font-size);
+  background-color: #fff !important;
+}
+
+textarea{
+    resize: none !important;
+}
+
+a{
+    text-decoration: none !important;
+}
