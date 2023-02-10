@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log(element.dataset.id);
             shop_arr.forEach((product)=>{
                 if(product.id == element.dataset.id){
+                    
                     cart_arr.push(product);
                     console.log(product);
                     console.log(cart_arr);

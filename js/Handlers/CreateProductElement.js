@@ -9,6 +9,7 @@ export default function createProduct_Element(input_title = "Title",input_price 
     const card = document.createElement("div");
     card.classList.add("card");
     products_Container.appendChild(card);
+    
 
     const card_body = document.createElement("div");
     card_body.classList.add("card-body");

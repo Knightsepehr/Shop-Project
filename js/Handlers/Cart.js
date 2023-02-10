@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return
     }
     cart_arr.forEach((product) =>{
-        createProduct_Element(product.title,product.price,product.description,product.image,product.id);
+        createProduct_Element(product.title,product.price,product.description,product.image,product.id,true);
     });
 
 
