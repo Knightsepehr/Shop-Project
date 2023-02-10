@@ -80,6 +80,7 @@ footer{
 }
 #password,#username{
     max-width: max-content;
-
-
 }
+/* #logout{
+    display: none;
+} */

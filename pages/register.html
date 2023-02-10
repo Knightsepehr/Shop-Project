@@ -14,8 +14,8 @@
     <script src="/js/bootstrap.bundle.min.js"></script>
     <title>Shop</title>
 </head>
-<body class="container">
-  <script defer type="module" src="/js/Handlers/Register.js"></script>
+<body class="container d-flex flex-column align-items-center">
+  <script defer type="module" src="/js/Handlers/sign-in-up.js"></script>
     <header class="header container">
       <nav class="navbar nb-navbar">
         <a class="navbar-brand flex-grow-0" href="#">
@@ -61,12 +61,24 @@
       </nav>
     </header>
 
-    <h1>Register</h1>
-    <main class="d-flex flex-column align-items-center">
+    <h1>Register/Login</h1>
+    <h2 class="text-danger fw-bold" id="label"></h2>
+    <button type="button" class="btn btn-danger" id="logout">Logout</button>
+    <main class="d-flex align-items-center justify-content-evenly container">
+      <div class="register">
         <label for="username">Enter your username:</label>
-        <input type="text" name="username" class="form-control" id="username" placeholder="username...">
+        <input type="text" name="username" class="form-control" id="username-r" placeholder="username...">
         <label for="username">Enter your password:</label>
-        <input type="text" name="password" class="form-control" id="password" placeholder="password...">
+        <input type="text" name="password" class="form-control" id="password-r" placeholder="password...">
+        <button type="button" class="btn btn-primary" id="register">Register</button>
+      </div>
+      <div class="login">
+        <label for="username">Enter your username:</label>
+        <input type="text" name="username" class="form-control" id="username-l" placeholder="username...">
+        <label for="username">Enter your password:</label>
+        <input type="text" name="password" class="form-control" id="password-l" placeholder="password...">
+        <button type="button" class="btn btn-primary" id="login">Login</button>
+      </div>
     </main>
     <footer class="container">
       <section class="nb-links d-flex align-items-center justify-content-between">

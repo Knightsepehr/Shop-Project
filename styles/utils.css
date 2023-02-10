@@ -11,6 +11,9 @@
 .fw-600{
     font-weight:600;
 }
+.fw-bold{
+    font-weight:bold;
+}
 .fs-36{
     font-size: 3.6rem;
 }
