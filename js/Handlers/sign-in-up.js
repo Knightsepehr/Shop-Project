@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         let login_username = document.getElementById("username-l").value;
         let login_password = document.getElementById("password-l").value;
+        label.innerHTML = "";
         user_arr.forEach((user)=>{
             if (user.username == login_username && user.password == login_password) {
                 islogged = true;
@@ -63,9 +64,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 });
-// document.addEventListener("click",()=>{
-//     console.log("islogged");
-//     console.log(islogged);
-//     console.log("currentUser");
-//     console.log(currentUser);
-// });
